@@ -7,9 +7,9 @@ spring:
     config:
       discovery:
         serviceId: config-service
-      name: redis-config,showTime-service
+      name: redis-config,showtime-service
   application:
-    name: showTime-service
+    name: showtime-service
 server:
   port: 4450
 
