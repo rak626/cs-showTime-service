@@ -1,8 +1,10 @@
-package com.crowdseats.showTime;
+package com.crowdseats.showTime.service.impl;
 
 import com.crowdseats.framework.common.schema.event.EventRequest;
 import com.crowdseats.framework.common.schema.event.ShowTime;
+import com.crowdseats.showTime.service.ShowTimeService;
 import com.crowdseats.showTime.entity.ShowTimeEntity;
+import com.crowdseats.showTime.repository.ShowTimeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.crowdseats.showTime;
+package com.crowdseats.showTime.service;
 
 import com.crowdseats.framework.common.schema.event.EventRequest;
 

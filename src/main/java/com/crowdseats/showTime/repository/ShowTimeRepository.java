@@ -1,4 +1,4 @@
-package com.crowdseats.showTime;
+package com.crowdseats.showTime.repository;
 
 import com.crowdseats.showTime.entity.ShowTimeEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

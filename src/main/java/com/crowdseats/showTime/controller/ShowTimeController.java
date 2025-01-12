@@ -1,8 +1,9 @@
-package com.crowdseats.showTime;
+package com.crowdseats.showTime.controller;
 
 import com.crowdseats.framework.common.Response;
 import com.crowdseats.framework.common.schema.event.EventRequest;
 import com.crowdseats.framework.common.util.ResponseUtil;
+import com.crowdseats.showTime.service.ShowTimeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

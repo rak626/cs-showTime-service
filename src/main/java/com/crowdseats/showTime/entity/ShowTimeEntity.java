@@ -8,7 +8,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.util.Date;
 
 @Entity
-@Table(name = "show_time", schema = "showtime_schema")
+@Table(name = "show_time", schema = "event_schema")
 @Getter
 @Setter
 @NoArgsConstructor
